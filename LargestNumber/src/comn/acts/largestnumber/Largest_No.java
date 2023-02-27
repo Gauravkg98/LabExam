@@ -1,0 +1,24 @@
+package comn.acts.largestnumber;
+
+import java.util.Scanner;
+
+public class Largest_No {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the First Number");
+		int first_no=sc.nextInt();
+		System.out.println("Enter the Second Number");
+		int second_no=sc.nextInt();
+		if(first_no>second_no) 
+		{
+			System.out.println("First Number is greater  : "+first_no);
+		}
+		else if (first_no==second_no) {
+			System.out.println("Both Numbers are equal  : +"+"First Number : "+first_no+ "   "+",  Second Number : "+second_no);
+		}
+		else {System.out.println("Second Number is greater  : "+second_no);
+		}
+	}
+
+}
